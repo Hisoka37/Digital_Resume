@@ -5,7 +5,7 @@
     --mainTextColor:#ffffff;
     --secondaryTextColor:(51 51 51);
     --mainLinkColor:#0da2b8;
-    --mainBorderColor:rgb(0, 0, 0);
+    --mainBorderColor: #2b3031;
     --mainBgColor:#131415;
 }
 
@@ -88,4 +88,29 @@ li {
 
 #qualifications--list {
     list-style: none;
+}
+
+#wrapper--techstack__items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 0.9em;
+}
+
+.card--techstack {
+    border: 1px solid var(--mainBorderColor);
+    padding: 0.5rem!important ;
+    border-radius: 5px;
+}
+
+.card--work-history{
+    border-left: 1px solid var(--mainBorderColor);
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 2em;
+}
+
+.line-break{
+    background-color: var(--mainBorderColor);
+    height: 1px;
 }
